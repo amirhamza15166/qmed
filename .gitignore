@@ -1,0 +1,28 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Models
+*.dill
+!backend/models/q_medai_pipeline.dill
+!backend/models/q_medai_pipeline_3.dill
+*.pkl
+
+# Logs
+*.log
