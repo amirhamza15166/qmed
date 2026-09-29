@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 try:
     from app.ml.model_loader import model_loader
     
-    model_path = Path("models/q_medai_pipeline.dill").resolve()
+    model_path = Path("models/q_medai_pipeline_3.dill").resolve()
     print(f"Testing load from: {model_path}")
     
     model_loader.load_pipeline(str(model_path))
